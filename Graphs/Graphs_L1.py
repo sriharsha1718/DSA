@@ -41,3 +41,42 @@ for (u,v) in ipt:
 print("\nThe final adjacency list is:")
 for item in adj_list.items():
     print(item)
+
+
+
+##########################################
+#Output
+'''
+Enter no of nodes in the graph:6
+The initialised adjacency matrix is:
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0]
+
+The Final adjacency matrix is:
+[0, 1, 1, 1, 1, 0]
+[1, 0, 0, 1, 0, 0]
+[1, 0, 0, 1, 1, 1]
+[1, 1, 1, 0, 0, 1]
+[1, 0, 1, 0, 0, 0]
+[0, 0, 1, 1, 0, 0]
+
+The initialised adjacency list is:
+(0, [])
+(1, [])
+(2, [])
+(3, [])
+(4, [])
+(5, [])
+
+The final adjacency list is:
+(0, [1, 2, 3, 4])
+(1, [0, 3])
+(2, [0, 3, 4, 5])
+(3, [0, 1, 2, 5])
+(4, [0, 2])
+(5, [2, 3])
+'''
